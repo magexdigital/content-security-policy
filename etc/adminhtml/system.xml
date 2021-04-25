@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="csp" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+            <label>Content Security Policy</label>
+            <tab>magex_config</tab>
+            <resource>MagEx_ContentSecurityPolicy::config_magex_contentsecuritypolicy</resource>
+            <group id="configuration" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1"
+                   translate="label">
+                <label>CSP Configuration</label>
+                <field id="global" type="textarea" sortOrder="10" showInWebsite="1" showInStore="1"
+                       showInDefault="1" translate="label">
+                    <label>Global src</label>
+                    <comment><![CDATA[Comma Separated]]></comment>
+                </field>
+                <field id="default_src" type="textarea" sortOrder="10" showInWebsite="1" showInStore="1"
+                       showInDefault="1" translate="label">
+                    <label>Default src</label>
+                    <comment><![CDATA[The default policy.]]></comment>
+                </field>
+                <field id="base_uri" type="textarea" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>Base URI</label>
+                    <comment><![CDATA[Defines which URLs can appear in a page's &lt;base&gt; element.]]></comment>
+                </field>
+                <field id="child_src" type="textarea" sortOrder="30" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>Child src</label>
+                    <comment><![CDATA[Defines the sources for workers and embedded frame contents.]]></comment>
+                </field>
+                <field id="connect_src" type="textarea" sortOrder="40" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>Connect src</label>
+                    <comment><![CDATA[Defines the sources that can be loaded using script interfaces.]]></comment>
+                </field>
+                <field id="font_src" type="textarea" sortOrder="50" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>Font src</label>
+                    <comment><![CDATA[Defines which sources can serve fonts.]]></comment>
+                </field>
+                <field id="form_action" type="textarea" sortOrder="70" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>Form Action</label>
+                    <comment><![CDATA[Defines valid endpoints for submission from &lt;form&gt; tags.]]></comment>
+                </field>
+                <field id="frame_ancestors" type="textarea" sortOrder="80" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>Frame Ancestors</label>
+                    <comment><![CDATA[Defines the sources that can embed the current page.]]></comment>
+                </field>
+                <field id="frame_src" type="textarea" sortOrder="90" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>Frame src</label>
+                    <comment><![CDATA[Defines the sources for elements such as &lt;frame&gt; and &lt;iframe&gt;.]]></comment>
+                </field>
+                <field id="img_src" type="textarea" sortOrder="100" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>IMG src</label>
+                    <comment><![CDATA[Defines the sources from which images can be loaded.]]></comment>
+                </field>
+                <field id="manifest_src" type="textarea" sortOrder="110" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>Manifest src</label>
+                    <comment><![CDATA[Defines the allowable contents of web app manifests.]]></comment>
+                </field>
+                <field id="media_src" type="textarea" sortOrder="120" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>Media src</label>
+                    <comment><![CDATA[Defines the sources from which images can be loaded.]]></comment>
+                </field>
+                <field id="object_src" type="textarea" sortOrder="130" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>Object src</label>
+                    <comment><![CDATA[Defines the sources for the &lt;object&gt;, &lt;embed&gt;, and &lt;applet&gt; elements.]]></comment>
+                </field>
+                <field id="script_src" type="textarea" sortOrder="140" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>Script src</label>
+                    <comment><![CDATA[Defines the sources for JavaScript &lt;script&gt; elements.]]></comment>
+                </field>
+                <field id="style_src" type="textarea" sortOrder="150" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>Style src</label>
+                    <comment><![CDATA[Defines the sources for stylesheets.]]></comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

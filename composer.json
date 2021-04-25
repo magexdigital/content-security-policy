@@ -1,0 +1,28 @@
+{
+    "name": "magex/content-security-policy",
+    "version": "1.0.0",
+    "description": "Alows to add CSP domains on the Admin",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-csp": "*",
+        "magex/base-module": "1.0.*"
+    },
+    "license": [
+        "Open Software License (OSL)"
+    ],
+    "authors": [
+        {
+            "name": "MagEx",
+            "email": "hello@magexdigital.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MagEx\\ContentSecurityPolicy\\": ""
+        }
+    }
+}

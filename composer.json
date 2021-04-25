@@ -1,7 +1,7 @@
 {
     "name": "magex/content-security-policy",
     "version": "1.0.0",
-    "description": "Alows to add CSP domains on the Admin",
+    "description": "Allows to add CSP domains on the Admin",
     "type": "magento2-module",
     "require": {
         "magento/framework": "*",

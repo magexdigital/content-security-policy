@@ -8,9 +8,7 @@
         "magento/module-csp": "*",
         "magex/base-module": "1.0.*"
     },
-    "license": [
-        "Open Software License (OSL)"
-    ],
+    "license": "OSL-3.0",
     "authors": [
         {
             "name": "MagEx",
